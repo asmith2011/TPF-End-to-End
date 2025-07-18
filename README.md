@@ -3,7 +3,7 @@
 Basic load testing using the K6 framework, designed to test API endpoints
 https://k6.io/
 
-Example Test run: 1 user running for 2 seconds
+Example Test run: 1 user running for 2 seconds 
 ```
 k6 run --out statsd .\tests\wso2-is.js -e ENDPOINT=https://env5-jl.yi-qa1.ajbbuild.uk --vus 1 --duration 2s
 ```

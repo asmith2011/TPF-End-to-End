@@ -1,0 +1,37 @@
+pipeline {
+  agent none
+  triggers {
+    cron('30 8 * * 1-5')
+  }
+  options{
+    buildDiscarder(logRotator(numToKeepStr: '50'))
+  }
+  stages {     
+    stage('Real Time price Quality') {
+    agent {   label 'ecs-k6' }
+    when {
+        beforeAgent true
+        branch 'master'
+    }
+    steps {
+        checkout scm
+        sh 'chmod +x ./LivePriceRTL.sh && ./LivePriceRTL.sh'
+    }
+    post {
+        always {
+            script {
+                  publishHTML(target: [
+                    allowMissing: true, 
+                    alwaysLinkToLastBuild: true, 
+                    keepAll: true,
+                    includes: '**/*',
+                    reportDir: 'GQLReports/', 
+                    reportFiles: '*.html', 
+                    reportName: "RTL Report"
+                  ])
+              }
+        }
+    }
+    }
+  }
+}

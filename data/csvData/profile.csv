@@ -1,0 +1,12 @@
+﻿S.No,Type,Name,isProfileFund,isProfileCEF
+1,Fund,FUND:B4MR8G8,true,false
+2,Fund,FUND:B4PQW15,true,false
+3,Fund,FUND:BFLV567,true,false
+4,Fund,FUND:BYT2QW8,true,false
+5,Fund,FUND:B2PB2M7,true,false
+6,Fund,FUND:BQ2JGV9,true,false
+7,Fund,FUND:BPSJGZ0,true,false
+8,CEF,LSE:WTAN,false,true
+9,CEF,LSE:RCP,false,true
+10,CEF,LSE:KPC,false,true
+11,CEF,LSE:OAP3,false,true

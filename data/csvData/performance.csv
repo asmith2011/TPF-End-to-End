@@ -1,0 +1,15 @@
+﻿S.No,Type,Name,isPerformanceEquity,isPerformanceETF,isPerformanceCEF,isPerformanceFund
+1,Fund,FUND:B4PQW15,false,false,false,true
+2,ETF,LSE:ISF,false,true,false,false
+3,CEF,LSE:WTAN,false,false,true,false
+4,Equity,LSE:GSK,true,false,false,false
+5,Fund,FUND:B4MR8G8,false,false,false,true
+6,ETF,LSE:WELP,false,true,false,false
+9,Fund,FUND:BYT2QW8,false,false,false,true
+10,ETF,LSE:YODA,false,true,false,false
+11,CEF,LSE:RCP,false,false,true,false
+12,Equity,LSE:888,true,false,false,false
+13,Fund,FUND:BFLV567,false,false,false,true
+14,ETF,LSE:SG26,false,true,false,false
+15,CEF,LSE:KPC,false,false,true,false
+16,Equity,LSE:QBT,true,false,false,false

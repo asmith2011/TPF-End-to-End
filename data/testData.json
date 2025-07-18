@@ -1,0 +1,67 @@
+{
+    "securitySummary": [
+        "LSE:III"
+    ],
+    "instruments": [
+        "NASDAQ:TSLA","NYSE:F"
+    ],
+    "instrumentStockholm": [
+        "XSTO:CAT A","XSTO:CAT B","XSTO:CEVI","XSTO:CLA B","XSTO:CLAS B","XSTO:CLAV","XSTO:CMOTEC B","XSTO:COIC","XSTO:COOR","XSTO:CTT","XSTO:CYB1","XSTO:DIGN","XSTO:DIOS","XSTO:DMYD B","XSTO:DOM","XSTO:DORO","XSTO:EAST","XSTO:EKTA B","XSTO:ELAN B","XSTO:ELKo","XSTO:ELOS B","XSTO:ELTEL","XSTO:ENEA","XSTO:ENRO","XSTO:EOLU B","XSTO:ERIC B","XSTO:ESSITY B","XSTO:EVO","XSTO:EWRK","XSTO:EXPRS2","XSTO:FABG","XSTO:FAG","XSTO:FING B","XSTO:FNM","XSTO:FOI B","XSTO:FPIP","XSTO:G5EN","XSTO:GABA","XSTO:GETI B","XSTO:GOMX","XSTO:HM B","XSTO:HMS","XSTO:HNSA","XSTO:HOFI","XSTO:HOLM B","XSTO:HPOL B","XSTO:HUM","XSTO:HUSQ A","XSTO:HUSQ B","XSTO:IAR B","XSTO:IMMU","XSTO:INDT","XSTO:INDU C","XSTO:INTRUM","XSTO:INWI","XSTO:IS","XSTO:IVSO","XSTO:JM","XSTO:KDEV","XSTO:KIND SDB","XSTO:KINV B","XSTO:KNOW","XSTO:LATO B","XSTO:LIDDS"
+    ],
+    "instrumentAllExchanges": ["NASDAQ:MSFT","LSE:BARC","SWX:NESN","XETRA:DTE","EURONEXT:OR","EURONEXT:HEIA","TSE:RY","MTA:PST","LSE:TSCO"
+    ],
+    "sedols": [
+        "2588173","0870612","7123870","5842359","4057808","7792559","2754383"
+    ],
+    "funds": [
+        "FUND:BD833W4","FUND:B2PB2M7","FUND:B4PQW15","FUND:B7W4GQ6"
+    ],
+    "instrumentList": [
+        "LSE:CUK","LSE:WTAN","LSE:ISF","FUND:BD833W4","FUND:B2PB2M7","FUND:B4PQW15","FUND:B7W4GQ6"
+    ],
+    "indices":[
+        "FTSE100","FTSE250","FTSE350","FTSE_SMALL_CAP","FTSE_ALL_SHARE","FTSE_FLEDGLING","FTSE_TECHMARK","AIM_ALL_SHARE","FTSE_AIM_100","CAC40","NASDAQ","NASDAQ_COMPOSITE"
+    ],
+    "indicesUK":[
+        "FTSE_100","FTSE_250","FTSE_350","FTSE_ALL_SHARE","AIM_ALL_SHARE","FTSE_AIM_100"
+    ],
+    "indicesSymbol":[
+        "FTSE:UKX","FTSE:MCX","FTSE:NMX","FTSE:ASX"
+    ],
+    "types":[
+        "PRICE","VOLUME","VALUE","TRADE","CHANGE"
+    ],
+    "sources":[
+        "ALLIANCE"
+    ],
+    "keywordALLIANCE":[
+        "ALLTOP","ALLSIG","ALLPOS","ALLNEG"
+    ],    
+    "keywordLSELSERNS":{
+        "QRF": 8, "QRS": 1, "QRT": 9, "QRR": 1, "ACQ": 58, "LIS": 1, "AGM": 16, "ARI": 1, "ACS": 85, "AIU": 1,
+        "AR": 1, "BRC": 1, "BLR": 89, "CAR": 1, "CAN": 5, "CIR": 26, "COS": 5, "CMC": 7, "CAS": 3, "CON": 3,
+        "RDN": 47, "RDS": 1, "DSP": 1, "TAB": 68, "DIS": 18, "DIV": 179, "DOC": 207, "DRL": 39, "EGM": 2, "EMM": 1,
+        "FR": 39, "FEE": 5, "FON": 1, "RC": 1, "FTS": 34, "FUR": 7, "GEO": 4, "IR": 223, "HOL": 920, "IMS": 1,
+        "IPO": 1, "ISE": 77, "IOD": 14, "IOE": 206, "LOI": 4, "SEN": 97, "MER": 21, "MSC": 724, "NAV": 1, "NAR": 1,
+        "NOA": 80, "NOE": 2, "NOR": 139, "OFF": 3, "OFB": 1, "ODP": 2, "OLA": 1, "ORE": 1, "OTT": 1, "OUP": 29,
+        "NOT": 62, "PFU": 91, "PME": 1, "PNM": 1, "PRL": 2, "PDI": 40, "AGR": 32, "SAL": 1, "CNT": 30, "BOA": 190,
+        "JVE": 2, "RAP": 1, "REA": 6, "RES": 2, "RSP": 7, "REN": 1, "REP": 1, "RAG": 172, "REG": 1, "ROI": 17,
+        "ROM": 54, "RHH": 1, "RTE": 10, "RTT": 36, "DCC": 52, "RET": 4860, "SOA": 16, "APM": 1, "STC": 2, "STR": 89,
+        "OFD": 4, "SPC": 4, "SPM": 2, "SRS": 1, "SYR": 2, "SUS": 9, "TEN": 12, "TSM": 1, "TAV": 1, "TVR": 336,
+        "TST": 93, "POS": 2840, "TRS": 1
+    },
+    "objective":[
+        "GROWTH", "RESPONSIBLE", "INCOME"
+    ],
+    "fundType":[
+        "ACTIVE","TRACKER"
+    ],
+    "sector":[
+        "GLOBAL","JAPAN","UK_EQUITY"
+    ],
+    "filterMultiple":[
+        "sortOrder:DESC,objective: [GROWTH, INCOME, RESPONSIBLE],fundType:[ACTIVE,TRACKER],sector:[UK_EQUITY, JAPAN, UK_SMALLER_COMPANIES,GLOBAL],fundSize: [LT100M, LT1BN, LT500M],ocf:[LTPT5, TL1, LT1PT5],income:[ANNUALLY,MONTHLY,SEMI_ANNUALLY],riskRating:[1,2,3,4,5,6,7,8,9]",
+        "sortOrder:DESC,fundType:[ACTIVE,TRACKER],sector:[UK_EQUITY, JAPAN, UK_SMALLER_COMPANIES,GLOBAL]",
+        "sortOrder:DESC,fundSize: [LT100M, LT1BN, LT500M],ocf:[LTPT5, TL1, LT1PT5],income:[ANNUALLY,MONTHLY,SEMI_ANNUALLY]"
+    ]
+}

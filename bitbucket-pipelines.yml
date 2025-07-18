@@ -1,0 +1,18 @@
+definitions:
+  services:
+    docker:
+      memory: 4096
+
+  steps:
+    - step: &sonar-scan
+        name: Run sonar scan
+        image: 'sonarsource/sonar-scanner-cli'
+        script:
+          - ls
+pipelines:
+  branches:
+    '**':
+      - step: *sonar-scan
+  pull-requests:
+    '**':
+      - step: *sonar-scan

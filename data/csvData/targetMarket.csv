@@ -1,0 +1,11 @@
+﻿S.No,Type,Name,isTargetMarketFund,isTargetMarketETF
+1,Fund,FUND:B4MR8G8,true,false
+2,Fund,FUND:B4PQW15,true,false
+3,Fund,FUND:BFLV567,true,false
+4,Fund,FUND:BYT2QW8,true,false
+5,Fund,FUND:B2PB2M7,true,false
+6,ETF,LSE:ISF,false,true
+7,ETF,LSE:WELP,false,true
+8,ETF,LSE:YODA,false,true
+9,ETF,LSE:SG26,false,true
+10,ETF,LSE:AQWA,false,true
